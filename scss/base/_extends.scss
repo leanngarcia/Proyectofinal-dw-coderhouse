@@ -1,0 +1,45 @@
+/*Extends*/
+
+/*imagen centrada responsive*/
+%img {
+    display: block;
+    padding: 20px 0 20px 0;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/*imagen grid*/
+%img-grid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*video responsive*/
+%video-responsive {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+/*video-yt*/
+%video-yt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    margin: auto;
+}
+
+/*texto resaltado*/
+%texto-resaltado {
+    font-weight: bolder;
+}

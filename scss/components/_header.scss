@@ -1,0 +1,76 @@
+@import "../base/variables", "../base/animations";
+
+/*HEADER*/
+#top {
+    background-color: $primary-color;
+    background-image: url(../src/assets/img/silueta.png);
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    background-position: right 2rem bottom;
+    margin-bottom: 2rem;
+}
+
+.container-logo {
+    a {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-decoration: none;
+        width: 25vh;
+
+        #logo {
+            height: 10rem;
+
+            &:hover {
+                animation: giro360 1s ease-in-out 0s infinite;
+            }
+        }
+
+        #logoText {
+            font-size: 3rem;
+            color: $secundary-color;
+            margin-top: -2rem;
+            text-align: center;
+        }
+    }
+}
+
+/*NAVBAR*/
+.container-nav {
+    background-color: darken(rgba($primary-color,80%), 5%);
+}
+
+.nav-pills {
+    .nav-link {
+        transition: all 1s;
+
+        &:hover {
+            background-color: rgba($primary-color-light, 50%);
+        }
+    }
+    .nav-link.active {
+        background-color: $primary-color-light !important;
+        font-weight: bolder;
+    }
+}
+
+/*MODAL*/
+.bg-modal {
+    border-radius: 10px;
+    background-color: $primary-color;
+}
+
+.modal-body {
+    a .fab {
+        transition: all 0.25s;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        &:hover {
+            font-size: 125%;
+            padding: 80% 0 80% 0;
+        }
+    }
+}

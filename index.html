@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Etiquetas meta description-->
+    <meta name="description"
+        content="Guía 100% gratuita para aprender calistenia y entrenar con el propio peso corporal. Rutina diseñada por la comunidad /r/bodyweightfitness para todos los niveles y edades">
+
+    <!--Etiquetas meta keywords-->
+    <meta name="keywords"
+        content="calistenia, como empezar, entrenamiento, rutina, dieta, flexibilidad, fuerza, movilidad">
+
+    <!--etiquetas protocolo Open Graph-->
+    <meta property="og:title" content="BASIQS | Calistenia y entrenamiento con peso corporal">
+    <meta property="og:url" content="https://basiqs.netlify.app/">
+    <meta property="og:image" content="https://imgur.com/a/VXYnC2w">
+    <meta property="og:description"
+        content="Guía 100% gratuita para aprender calistenia y entrenar con el propio peso corporal. Rutina diseñada por la comunidad /r/bodyweightfitness para todos los niveles y edades">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <!--Bootstrap ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/5f1a37ee67.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Titulo de la página-->
+    <title>BASIQS | Calistenia y entrenamiento con peso corporal</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header id="top">
+        <div class="container-logo">
+            <a href="index.html">
+                <img id="logo" src="src/assets/img/logo.png" alt="BASIQS">
+                <p id="logoText"> Basiqs </p>
+            </a>
+        </div>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+            <div class="container-fluid container-nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-lg-flex align-items-center nav-pills w-100 nav-justified">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active fs-5" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white fs-5" href="src/pages/objetivos.html">Objetivos</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white fs-5" href="src/pages/rutina-recomendada.html">Rutina
+                                recomendada</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white fs-5" href="src/pages/dieta.html">Dieta</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-white fs-5" href="src/pages/faq.html">FAQs</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <!--Boton modal-->
+                            <button type="button" class="btn btn-primary text-white fs-5 nav-link"
+                                data-bs-toggle="modal" data-bs-target="#compartirPagina">
+                                Compartir página
+                            </button>
+
+                            <div class="modal fade" id="compartirPagina" tabindex="-1" aria-labelledby="compartirPagina"
+                                aria-hidden="true">
+                                <div class="modal-dialog bg-modal">
+                                    <div class="modal-content bg-modal">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-white bg-modal fs-2 flex-grow-1">
+                                                Compartir BASIQS</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-light fs-5">
+                                            <p>Compartir vía redes sociales:</p>
+                                            <div class="d-flex flex-row justify-content-around fs-2 py-4">
+                                                <a class="link-social" target="_blank"
+                                                    href="https://www.facebook.com/sharer/sharer.php?u=https://basiqs.netlify.app/"
+                                                    class="fb-xfbml-parse-ignore"><i class="bi bi-facebook"></i></a>
+                                                <a class="link-social"
+                                                    href="https://twitter.com/intent/tweet?text=https://basiqs.netlify.app/"><i
+                                                        class="bi bi-twitter"></i></a>
+
+                                                <a class="link-social"
+                                                    href="https://www.reddit.com/submit?url=https://basiqs.netlify.app/"><i
+                                                        class="bi bi-reddit"></i></i></a>
+
+
+
+                                                <a class="link-social"
+                                                    href="https://api.whatsapp.com/send?text=https://basiqs.netlify.app/"
+                                                    data-action="share/whatsapp/share">
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </a>
+
+                                            </div>
+                                            <p>O copia y pega el link:</p>
+                                            <div class="d-flex flex-row justify-content-center align-items-center pb-4">
+                                                <span class="fas fa-link text-center px-1"></span>
+                                                <input type="text" value="https://basiqs.netlify.app/"> <button
+                                                    class="px-1">Copiar</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main-->
+    <main>
+        <!--Section 1-->
+        <section class="container mt-4 mb-4">
+            <div class="row m-2">
+                <div class="col-lg-4 col-md-12 grid1 my-2">
+                    <ul id="gridList">
+                        <li>Fuerza</li>
+                        <li>Movilidad</li>
+                        <li>Aumento de masa muscular</li>
+                        <li>Pérdida de peso</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 my-2">
+                    <img class="img-fluid" src="src/assets/img/l-sit.webp" alt="hombre en l-sit">
+                </div>
+                <div class="col-lg-4 col-md-6 my-2">
+                    <img class="img-fluid" src="src/assets/img/andrea-larosa.webp" alt="hombre en plancha">
+                </div>
+            </div>
+
+            <div class="row m-2">
+                <div class="col-lg-4  col-md-6 my-2">
+                    <img class="img-fluid" src="src/assets/img/squats.webp" alt="2 mujeres haciendo squats">
+                </div>
+                <div class="col-lg-8 col-md-6 my-2">
+                    <div class="grid4">
+                        <blockquote>
+                            “Es una sólida una rutina de 'principiantes' y cubre la gran mayoría
+                            de los conceptos básicos. Lo sé porque ayudé a construir partes de
+                            ella. No llevará a nadie en la dirección equivocada para una
+                            introducción al entrenamiento de fuerza con el peso corporal y la
+                            preparación para habilidades más avanzadas.”
+                        </blockquote>
+
+                        <div class="avatar-section">
+                            <img id="avatarPic" src="src/assets/img/Steven-Low.webp" alt="autor avatar" />
+                            <p>
+                                Steven Low,
+                                <em>autor de "Overcoming gravity", fisioterapeuta y ex-gimnasta</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 2-->
+        <section>
+            <h1>¿Como empezar en la calistenia? La guía para principiantes en el entrenamiento con peso corporal.</h1>
+
+            <h2>Objetivos:</h2>
+
+            <ul>
+                <li>Fuerza</li>
+                <li>
+                    Ganancia de músculo (siempre y cuando tu
+                    <a href="src/pages/dieta.html" target="_blank">dieta</a> esté bajo
+                    control).
+                </li>
+                <li>
+                    Pérdida de peso (siempre y cuando tu
+                    <a href="src/pages/dieta.html" target="_blank">dieta</a> esté bajo
+                    control).
+                </li>
+                <li>
+                    Para mas detalles, revisa la página de
+                    <a href="src/pages/objetivos.html" target="_blank">objetivos</a>
+                    para ver si esta rutina te ayudará a alcanzar tus objetivos
+                </li>
+            </ul>
+
+            <h2>Estructura general</h2>
+
+            <h3>Calentamiento</h3>
+
+            <ul>
+                <li>Estiramientos dinámicos</li>
+                <li>Preparación de articulaciones</li>
+                <li>Práctica de movimiento</li>
+            </ul>
+
+            <h3>Entrenamiento de Fuerza</h3>
+
+            <ul>
+                <li>
+                    6 ejercicios, emparejados y enfocados a los principales grupos
+                    musculares de las zonas superior e inferior de tu cuerpo.
+                </li>
+                <li>
+                    3 ejercicios en tripletes que se enfocan en la fuerza de tu zona
+                    media.
+                </li>
+            </ul>
+
+            <h2>Equipamiento:</h2>
+
+            <ul>
+                <li>
+                    Un lugar para hacer Remos (Barra Baja, Aros Gimnásticos, una Mesa
+                    Resistente; Esto no es negociable sin importar el nivel de
+                    habilidades físicas. Los remos son absolutamente integrales a la
+                    calidad de la rutina y no pueden ser sustituidos).
+                </li>
+                <li>
+                    Un lugar para hacer dominadas, si estás en el punto del programa en
+                    que agregas dominadas (barras, barra de dominadas, aros, etc.)
+                </li>
+                <li>
+                    Barras paralelas (hay progresiones tales como las flexiones parado
+                    de mano que pueden hacerse en lugar de los ejercicios que ocupan
+                    este equipo una vez que hayas alcanzado el nivel apropiado que no
+                    las requiere, así que, si no puedes encontrar en lo absoluto la
+                    esquina de la encimera de una cocina, dos sillas resistentes, o algo
+                    similar, no dejes que esta barra te impida empezar.)
+                </li>
+            </ul>
+        </section>
+
+        <!--Section 3-->
+        <section>
+            <h2>Programación semanal</h2>
+            <ul>
+                <li>
+                    Haz esta rutina 3 veces por semana, con al menos un día de descanso
+                    (o día de habilidad) entre los días de entrenamiento.
+                </li>
+                <li>
+                    Así, podrías hacerla en lunes, miércoles y viernes. O martes, jueves
+                    y sábado. O miércoles, viernes y domingo. Lo que mejor se acomode a
+                    tus horarios.
+                </li>
+                <li>
+                    No dividas en “splits” la rutina a propósito. Está diseñada para ser
+                    una rutina de cuerpo completo.
+                </li>
+            </ul>
+
+            <!--Link to "Entrenamiento" page-->
+            <div class="start-training-buttom">
+                <a href="src/pages/rutina-recomendada.html">¿Preparado? Empieza a entrenar YA</a>
+            </div>
+        </section>
+
+        <!--to top-->
+        <div class="to-top-container">
+            <a href="#top">
+                <i class="fas fa-angle-up"></i>
+                <p class="to-top"> Ir hacia arriba</p>
+            </a>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <nav class="nav-footer">
+            <h4 class="footer-h4">Enlaces útiles:</h4>
+            <ul>
+                <li>
+                    <a href="https://www.reddit.com/r/bodyweightfitness/" target="_blank">Reddit Bodyweight fitness</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC1CVzH-XVr3E-kTT6D8hhfg" target="_blank">Canal YouTube
+                        FitnessFAQs</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/Calisthenicmovement" target="_blank">Canal YouTube
+                        Calisthenicmovement</a>
+                </li>
+                <li>
+                    <a href="https://stevenlow.org/the-fundamentals-of-bodyweight-strength-training/"
+                        target="_blank">"Fundamentos del entrenamiento con peso corporal" por Steven
+                        Low</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="credits">
+            <h4 class="footer-h4">Créditos:</h4>
+            <p>
+                Toda la información brindada por esta página web esta basada en la
+                rutina recomendada de la comunidad de "Bodyweight fitness" en Reddit.
+            </p>
+
+            <a href="https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine" target="_blank">
+                <img src="src/assets/img/reddit.webp" alt="logo de reddit" />
+            </a>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
